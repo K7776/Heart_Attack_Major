@@ -292,6 +292,5 @@ def predict6():
     return render_template('naive.html', prediction_text='{}'.format(message))
 
 
-app.run()
-# if __name__ == "__main__":
-    # app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
